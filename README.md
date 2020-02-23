@@ -10,5 +10,9 @@ SDL_Surface_ptr text_surface = nullptr;
 
 void SomeMethod {
     font = SDL_TTF_Font_ptr(TTF_OpenFont(fontPath.c_str(), fontSize));
-		text_surface = SDL_Surface_ptr(TTF_RenderText_Solid(font.get(), fontData.c_str(), fontColor));
+    text_surface = SDL_Surface_ptr(TTF_RenderText_Solid(font.get(), fontData.c_str(), fontColor));
 }
+
+
+SDL_ptr for all standard types from SDL.h.
+SDL_TTF_ptr for types from SDL_ttf.h.
