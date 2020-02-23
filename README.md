@@ -2,7 +2,7 @@
  This library contains smart pointers with custom deleter. You no longer need to worry about freeing memory with SDL_Destroy / SDL_Free. 
 
 Usage example:
-class simple_class {
+class simple_class { 
 SDL_TTF_Font_ptr font = nullptr;
 SDL_Surface_ptr text_surface = nullptr;
 }
